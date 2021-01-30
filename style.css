@@ -143,7 +143,6 @@ a.active {
     justify-content: space-between;
 }
 
-
-/* .form-align {
-    border: 2px solid red;
-} */
+.sign {
+    font-size: 30px;
+}
