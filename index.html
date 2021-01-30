@@ -73,14 +73,11 @@
                 <div class="amount">
                     <div class="left">
                         <p>Subtotal</p>
-                        <!-- <p>Totalprice</p> -->
                     </div>
                     <div class="right">
-                        <!-- <p>$<span id="subtotal">00</span></p> -->
                         <p>$<span id="totalprice">00</span></p>
                     </div>
                 </div>
-
                 <div class="amount">
                     <div class="left">
                         <p>Charge 10% VAT</p>
@@ -99,17 +96,32 @@
                     </div>
                 </div>
             </div>
-            <button class="btn-style btn-success">Book Now</button>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary form-control" data-bs-toggle="modal" data-bs-target="#exampleModal">Book Now</button>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            Your ticket confirm Successful <img src="images/successfull-icon.png" height="60px" width="60px">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-
         <div class="booking-content">
             <h1>discover <br> around the world</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicingelit. Provident voluptatibus quam fuga laborumalias veniam libero autem quasi maxime ullam vero nama imi dolor, architecto ab facilis eaque deserunt nobise voluptatibus quam</p>
         </div>
         </section>
-
-        <!--Thank You-->
-
         <script src="js/bootstrap.min.js"></script>
         <script src="script.js"></script>
 </body>
